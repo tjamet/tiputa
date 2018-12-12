@@ -2,15 +2,39 @@
 
 
 [[projects]]
+  name = "github.com/davecgh/go-spew"
+  packages = ["spew"]
+  revision = "8991bc29aa16c548c550c7ff78260e27b9ab7c73"
+  version = "v1.1.1"
+
+[[projects]]
+  name = "github.com/pmezard/go-difflib"
+  packages = ["difflib"]
+  revision = "792786c7400a136282c1664665ae0a8db921c6c2"
+  version = "v1.0.0"
+
+[[projects]]
   name = "github.com/spf13/afero"
   packages = [".","mem"]
   revision = "d40851caa0d747393da1ffb28f7f9d8b4eeffebd"
   version = "v1.1.2"
 
 [[projects]]
+  name = "github.com/stretchr/objx"
+  packages = ["."]
+  revision = "477a77ecc69700c7cdeb1fa9e129548e1c1c393c"
+  version = "v0.1.1"
+
+[[projects]]
+  name = "github.com/stretchr/testify"
+  packages = [".","assert","http","mock"]
+  revision = "f35b8ab0b5a2cef36673838d662e249dd9c94686"
+  version = "v1.2.2"
+
+[[projects]]
   branch = "master"
   name = "github.com/tjamet/xgo"
-  packages = ["."]
+  packages = ["xtesting"]
   revision = "bf958fe370b142919d3adec2633d0722b65bc155"
 
 [[projects]]
@@ -22,6 +46,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "f45838ec49599dd2ac6f30f770a1ff8a85153d8c4f97e741048176ed20b9af31"
+  inputs-digest = "507d3e857516b696e9a92842481fb63be056a00038e9496eb253c388def70752"
   solver-name = "gps-cdcl"
   solver-version = 1
