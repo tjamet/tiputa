@@ -8,6 +8,12 @@
   version = "v1.1.2"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/tjamet/xgo"
+  packages = ["."]
+  revision = "bf958fe370b142919d3adec2633d0722b65bc155"
+
+[[projects]]
   name = "golang.org/x/text"
   packages = ["internal/gen","internal/triegen","internal/ucd","transform","unicode/cldr","unicode/norm"]
   revision = "f21a4dfb5e38f5895301dc265a8def02365cc3d0"
@@ -16,6 +22,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "8aa7a8ad682330522804044c1f0478fc73128c97a6ab4e69882bba9694bb35b3"
+  inputs-digest = "f45838ec49599dd2ac6f30f770a1ff8a85153d8c4f97e741048176ed20b9af31"
   solver-name = "gps-cdcl"
   solver-version = 1
