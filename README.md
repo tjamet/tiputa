@@ -4,6 +4,10 @@ Tiputa is a PoC to use [pass](https://www.passwordstore.org/) to encrypt user au
 It implements Kubernetes [client-go credential plugins](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#client-go-credential-plugins)
 available in beta since kubernetes 1.11.
 
+## Why this name?
+
+[Tiputa](https://www.google.com/maps/place/Tiputa,+Polyn%C3%A9sie+fran%C3%A7aise/@-14.9700622,-147.6350774,14.88z/data=!4m5!3m4!1s0x768c4ca3c486189f:0x93b1a5c19e84beff!8m2!3d-14.969652!4d-147.625093) inherits a tendency of mine to baptise projects from French polynesia islands
+
 # Usage
 
 install using
